@@ -1,9 +1,14 @@
-Python Exercises
+* * * Python Exercises * * *
 
-# 1.Combine list of ['North', 'South', 'East', 'West']
-# into a single string: Expected Output 'North West South East
+# --------------------------------------------------------------------------------------------------------- #
 
+'''
+Combine list of ['North', 'South', 'East', 'West'] into a single string:
+Expected Output 'North West South East'
+'''
 # Answer 1
 
 mylist = ['North', 'South', 'East', 'West']
 print(mylist[0], mylist[3], mylist[1], mylist[2])
+
+# --------------------------------------------------------------------------------------------------------- #
