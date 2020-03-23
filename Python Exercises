@@ -19,7 +19,7 @@ print(mylist[0], mylist[3], mylist[1], mylist[2])
 Expected Output: ['Carlos', 'Jose', 'Adrian', 'Anna', 'Maria]
 '''
 
-#Answer 1
+# Answer 1
 
 mylist = ['Carlos', 'Jose', 'Adrian', 'Victoria', 'Maria']
 print(mylist)
@@ -27,7 +27,7 @@ mylist[3] = 'Anna'
 print(mylist)
 
 
-#Answer 2
+# Answer 2
 
 mylist = ['Carlos', 'Jose', 'Adrian', 'Victoria', 'Maria']
 print(mylist)
