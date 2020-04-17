@@ -1,0 +1,7 @@
+DEPENDENCIES
+  learn_chef_apache2
+    path: .
+    metadata: true
+
+GRAPH
+  learn_chef_apache2 (0.1.0)
