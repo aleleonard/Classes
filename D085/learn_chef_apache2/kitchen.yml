@@ -1,0 +1,80 @@
+---
+driver:
+  name: vagrant
+  customize:
+    memory: 512
+provisioner:
+  name: chef_zero
+  always_update_cookbooks: false
+
+verifier:
+  name: inspec
+
+platforms:
+  - name: ubuntu-14.04
+
+suites:
+  - name: CGSP-2-core
+    driver:
+      vm_hostname: core.sparkit.com
+    run_list:
+      - recipe[learn_chef_apache2::default]                   
+    attributes:
+    tags:
+      Name: 'SparkIT-Core'
+  - name: CG2-web-front
+    driver:
+      vm_hostname: front.sparkit.com
+    run_list:
+      - recipe[learn_chef_apache2::default]                   
+    attributes:
+    tags:
+      Name: 'SparkIT-Front'
+  - name: CG2-web-back
+    driver:
+      vm_hostname: back.sparkit.com
+    run_list:
+      - recipe[learn_chef_apache2::default]                   
+    attributes:
+    tags:
+      Name: 'SparkIT-Back'
+  - name: CG-db
+    driver:
+      vm_hostname: db.sparkit.com
+    run_list:
+      - recipe[learn_chef_apache2::default]                   
+    attributes:
+    tags:
+      Name: 'SparkIT-DB'
+  - name: CG-2-Micropayment
+    driver:
+      vm_hostname: micropayment.sparkit.com
+    run_list:
+      - recipe[learn_chef_apache2::default]                   
+    attributes:
+    tags:
+      Name: 'SparkIT-Micropayment'
+  - name: CG-2-CoopPlayCore
+    driver:
+      vm_hostname: coopplaycore.sparkit.com
+    run_list:
+      - recipe[learn_chef_apache2::default]                   
+    attributes:
+    tags:
+      Name: 'SparkIT-CoopPlayCore'
+  - name: CG-2-CoopPlay-gw
+    driver:
+      vm_hostname: coopplaygw.sparkit.com
+    run_list:
+      - recipe[learn_chef_apache2::default]                   
+    attributes:
+    tags:
+      Name: 'SparkIT-CoopPlaygw'
+  - name: CoopPlay-env
+    driver:
+      vm_hostname: coopplayenv.sparkit.com
+    run_list:
+      - recipe[learn_chef_apache2::default]                   
+    attributes:
+    tags:
+      Name: 'SparkIT-CoopPlayenv'
