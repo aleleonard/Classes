@@ -1,2 +1,2 @@
-# WGU
-Western Governor University
+# Classes
+Classes and School Work.
