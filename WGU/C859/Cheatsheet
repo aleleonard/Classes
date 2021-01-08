@@ -1,0 +1,61 @@
+#--- multiple variable declaration ---
+var1, var2, var3 = 1, 2, 3 #multiple variable assignment
+
+#--- Data Types ---
+myInteger = 12 #variable assigned an integer
+myFloat = 1.2 #variable assigned a float
+myString = "twelve" #variable assigned a string 
+mySecondString = 'twelve' #variable assigned a string 
+myBoolean = False #variable assigned a Boolean
+dateType = type(myFloat) #determines type of object 
+convInt = int(myFloat) #converts float to an integer
+convFloat = float(myInteger) #converts integer to a float
+convString = str(myInteger) #converts integer to string
+print(var1) #print command
+
+#--- arithmetic operators ---
+print( 2 + 2 ) #addition
+print( 2 - 2 )  #subtraction
+print( 2 ** 2 ) #power of
+print( 5 % 2 )  #modulus
+print( 2.1 / 2 ) #division, always results in float
+print( 2.1 // 2 ) #division, always results in integer
+
+#--- assignment/reassignment operators ---
+myAssignment = 10 #assignment
+myAssignment += 5 #adds 
+myAssignment -= 5 #subtracts
+myAssignment *= 5  #multiples
+myAssignment /= 5 #divides
+
+#--- comparison operators ---
+myNum = 4
+print( myNum < 2 ) #less than
+print( myNum > 2 )  #greater than
+print( myNum <= 4 ) #less than or equal to
+print( myNum >= 2 )  #greater than or equal to
+print( myNum == 2 )  #equal to
+print( myNum != 2 ) #not equal to
+
+#--- string operations ---
+#view all string methods: https://docs.python.org/3/library/stdtypes.html#string-methods 
+myCourse = "introduction to programming in Python"
+courseLength = len(myCourse) #length operator
+courseProper = myCourse.title() #capitalizes first letter of each word
+confirmLower = myCourse.islower() #determines if the string consists of lowercase characters
+
+statement = "I love Python. Working with Python is amazing because, hello, it's Python!" 
+countPython = statement.count('Python')
+
+name = 'John Jacob Jingleheimer Schmidt' 
+name[0:4] #slice a string
+
+username = "Connie"
+code = "C859"
+userMessage = "Welcome to {}, {}.".format(code, username) 
+print( userMessage )
+
+myNewPhrase = "cowabunga dude"
+mySplitPhrase = myNewPhrase.split(" ") #split method 
+print(mySplitPhrase)
+
