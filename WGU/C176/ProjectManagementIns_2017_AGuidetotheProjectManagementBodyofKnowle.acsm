@@ -1,0 +1,37 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:501e16ca-f45c-4a0c-9a9f-8a270a9f2ed6</distributor>
+  <operatorURL>http://rps2images.ebscohost.com/fulfillment</operatorURL>
+  <transaction>ns017578:14596639:1595320:1590034060281:1771736129</transaction>
+  <expiration>2020-05-21T06:07:40-04:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:c82cebf8-628f-4da9-acf3-04b5fde10950</resource>
+    <resourceItem>0</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">A Guide to the Project Management Body of Knowledge (PMBOK Guide)Sixth Edition</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Project Management Institute;</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Independent Publishers Group</dc:publisher>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/pdf</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">eng</dc:language>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:c82cebf8-628f-4da9-acf3-04b5fde10950</resource>
+      <permissions>
+        <display>
+          <until>2020-07-20T00:07:40-04:00</until>
+        </display>
+        <excerpt>
+          <until>2020-07-20T00:07:40-04:00</until>
+          <count initial="100"/>
+        </excerpt>
+        <print>
+          <until>2020-07-20T00:07:40-04:00</until>
+          <count initial="100"/>
+        </print>
+        <play>
+          <until>2020-07-20T00:07:40-04:00</until>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>56gCvsoKfppsRUizqSrE75Ta/zg=</hmac>
+</fulfillmentToken>
